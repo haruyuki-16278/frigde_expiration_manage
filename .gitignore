@@ -1,0 +1,35 @@
+# Dart関連
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# Flutter関連
+/build/
+
+# iOS関連(iOSアプリ開発時)
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Flutter/flutter_export_environment.sh
+ios/Pods/
+ios/Runner.xcworkspace/xcuserdata/
+ios/Runner.xcworkspace/contents.xcworkspacedata
+ios/Runner.xcodeproj/xcuserdata/
+ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+
+# Android関連(Androidアプリ開発時)
+android/.gradle
+android/.idea
+android/app/build/
+
+# その他のIDEやエディタに関する設定
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
